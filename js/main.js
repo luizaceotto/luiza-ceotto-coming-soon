@@ -58,7 +58,7 @@ $('a.s-scroll').on('click',function() {
     }
 });*/
 
-/* Email registration */
+/* Email registration 
 var email_reg_elem = document.getElementById("reg-email");
 email_reg_elem.oninvalid = function(e) {
 	e.target.setCustomValidity("");
@@ -68,7 +68,7 @@ email_reg_elem.oninvalid = function(e) {
 };
 email_reg_elem.oninput = function(e) {
 	e.target.setCustomValidity("");
-};
+};*/
 /* Message form */
 // email
 var email_message_elem = document.getElementById("mes-email");
@@ -208,7 +208,7 @@ var pageElem = $('.page');
 $(document).ready(function() {
     $('#mainpage').fullpage({
 		menu: '#qmenu',
-		anchors: ['home', 'when', 'register', 'about-us', 'contact'],
+		anchors: ['home', 'lancamento', 'sobre', 'contato'],
 //        verticalCentered: false,
 //        resize : false,
 //		responsive: 900,

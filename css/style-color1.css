@@ -27,7 +27,7 @@
 .page-contact .socialnet a{
 	font-family: 'Opensans';
 	letter-spacing: -0.01em;
-	color: #555555;
+	color: #000000;
 }
 
 .page .form button{
@@ -41,36 +41,36 @@
 }
 .header-top .menu a:hover,
 .quick-link a {
-	color: #555555;
+	color: #B880B1;
 }
 .quick-link a:hover {
 	color: #ffffff;
 }
 #fp-nav span:after, .fp-slidesNav span:after{
-	background: rgba(55, 58, 80, 0.15);
+	background: rgba(184, 128, 177, 0.25);
 }
 #fp-nav ul li a span,
 #fp-nav li .active span, .fp-slidesNav .active span{
-	background: #555555;
+	background: #000000;
 }
 #fp-nav span, .fp-slidesNav span{
-	border-color: #555555;
+	border-color: #000000;
 }
 .quick-link a ,
 .header-top .menu a:hover,
 .page-contact .p-title .buttons,
 .p-footer .arrow-d {
-	background: rgba(55, 58, 80, 0.15);
+	background: rgba(184, 128, 177, 0.25);
 }
 .header-top .menu a:first-child:after ,
 .p-footer .arrow-d .circle {
-	background: #555555;
+	background: #B880B1;
 }
 .page-home .content h2 {
-	color: #26878E;
+	color: #B880B1;
 }
 .page-home .content h2 strong {
-	color: #555555;
+	color: #000000;
 /*	color: #006870;*/
 /*	color: #B0ABC2;*/
 }
@@ -80,7 +80,7 @@
 	color: #ABABAB;
 }
 .page-home .content .subhead:hover {
-	color:  #26878E;
+	color:  #B880B1;
 }
 
 /* Color */
@@ -92,14 +92,14 @@
 .header-top.material .menu a:hover,
 .p-footer .arrow-d:hover,
 .page .form button{
-	background: #26878e;
+	background: #B880B1;
 }
 .page .form .fields,
 .page-cent .p-title h3{
-	border-bottom-color: #26878e;
+	border-bottom-color: #B880B1;
 }
 .header-top.material .menu a,
 .header-top .menu a,
 .page .form button:hover{
-	color: #26878e;
+	color: #B880B1;
 }
