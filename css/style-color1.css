@@ -51,7 +51,7 @@
 }
 #fp-nav ul li a span,
 #fp-nav li .active span, .fp-slidesNav .active span{
-	background: #000000;
+	background: #B880B1;
 }
 #fp-nav span, .fp-slidesNav span{
 	border-color: #000000;
@@ -76,8 +76,9 @@
 }
 
 .page-home .content .subhead {
-/*	color: #A3D0D3;*/
-	color: #ABABAB;
+/*	color: #A3D0D3;
+	color: #ABABAB;*/
+    color: #D6B0D1;
 }
 .page-home .content .subhead:hover {
 	color:  #B880B1;
