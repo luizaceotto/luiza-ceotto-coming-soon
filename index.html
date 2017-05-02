@@ -399,41 +399,39 @@ http://themeforest.net/licenses
 						<div class="page-block c-right v-zoomIn">
 							<div class="wrapper">
 								<div>
-									<form class="message form send_message_form" method="get" action="ajaxserver/serverfile.php">
+									<form class="message form send_message_form" method="post" action="http://corpdip.pe.hu/contato/auto_envio.php" enctype="multipart/form-data">
 										<div class="fields clearfix">
 											<div class="input">
-												<label for="mes-name">Nome </label>
-												<input id="mes-name" name="nome" type="text" required></div>
+												<label>Nome </label>
+												<input name="nome" type="text" required></div>
 										</div>
 										<div class="fields clearfix">
 											<div class="input">
-												<label for="mes-email">Email </label>
-												<input id="mes-email" type="email" name="E-mail" required>
+												<label>Email </label>
+												<input type="email" name="E-mail" required>
 											</div>
 										</div>
                                         <div class="fields clearfix">
 											<div class="input">
-												<label for="mes-email">Telefone </label>
-												<input id="mes-email" type="text" name="Telefone">
+												<label>Telefone </label>
+												<input type="text" name="Telefone">
 											</div>
 										</div>
                                         <div class="fields clearfix">
 											<div class="input">
-												<label for="mes-email">Assunto </label>
-												<input id="mes-email" type="text" name="Assunto" required>
+												<label>Assunto </label>
+												<input type="text" name="Assunto" required>
 											</div>
 										</div>
 										<div class="fields clearfix no-border">
-											<label for="mes-text">Mensagem </label>
-											<textarea id="mes-text" placeholder="Digite sua mensagem ..." name="Mensagem" required></textarea>
-
-											<div>
-												<p class="message-ok invisible">Sua mensagem foi enviada, obrigada.</p>
-											</div>
+											<label>Mensagem </label>
+											<textarea placeholder="Digite sua mensagem ..." name="Mensagem" required></textarea>
 										</div>
                                         <div class="buttons">
-                                            <button id="submit-message" class="button email_b" name="submit_message">Enviar</button>
+                                            <button class="button email_b" name="submit_message">Enviar</button>
                                         </div>
+                                        <input type="hidden" name="site" value="http://luizaceotto.com.br/">
+                                        <input type="hidden" name="email" value="contato@luizaceotto.com.br">
 									</form>
 								</div>
 							</div>
@@ -479,8 +477,8 @@ http://themeforest.net/licenses
 		<!-- Downcount JS -->
         <script src="./js/jquery.downCount.js"></script>
 		
-		<!-- Form script -->
-        <script src="./js/form_script.js"></script>
+		<!-- Form script 
+        <script src="./js/form_script.js"></script>-->
         
 		<!-- Javascript main files -->
         <script src="./js/main.js"></script>
