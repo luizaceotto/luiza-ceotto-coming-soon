@@ -73,16 +73,6 @@ http://themeforest.net/licenses
         
     </head>
     <body id="menu" class="alt-bg">
-        <!--[if lt IE 8]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <!-- Site config : put launching date here
-             data-date="01/31/2016 23:00:00"        Launching date
-             data-date-timezone="+0"                Lanching date time zone
--->
-        
-        
 
         <!-- Page Loader -->
         <div class="page-loader" id="page-loader">
@@ -102,10 +92,6 @@ http://themeforest.net/licenses
                 <a href="#sobre">sobre</a>
                 <a href="#contato">contato</a>
             </div>
-			<!-- Add other menu similar to "about" here -->
-            <!--<div class="menu" data-menuanchor="about">
-                <a href="#contact">contact</a>
-            </div> -->
 		</header>
         <!-- END OF site header Menu-->
         
@@ -122,11 +108,6 @@ http://themeforest.net/licenses
 					</a>
 					<span class="title">Lançamento</span>
 				</li>
-				<!--<li>
-					<a href="#register"><i class="icon ion ion-compose"></i>
-					</a>
-					<span class="title">Stay in touch</span>
-				</li>-->
 				<li>
 					<a href="#sobre"><i class="icon ion ion-android-information"></i>
 					</a>
@@ -152,27 +133,6 @@ http://themeforest.net/licenses
         <div class="page-cover" id="home">
             <!-- Cover Background -->
             <div class="cover-bg pos-abs full-size bg-img" data-image-src="img/bg-default.jpg"></div>
-			
-            <!-- BEGIN OF Slideshow Background -->
-            <!--<div class="cover-bg pos-abs full-size slide-show">
-				<i class='img' data-src='./img/bg-slide1.jpg'></i>
-				<i class='img' data-src='./img/bg-slide2.jpg'></i>
-				<i class='img' data-src='./img/bg-slide3.jpg'></i>
-				<i class='img' data-src='./img/bg-slide4.jpg'></i>
-			</div>-->
-            <!-- END OF Slideshow Background -->
-            
-            <!--BEGIN OF Static video bg  - uncomment below to use Video as Background-->
-            <!--<div id="container" class="video-container show-for-medium-up">
-                <video autoplay="autoplay" loop="loop" autobuffer="autobuffer" muted="muted"
-                       width="640" height="360">
-                    <source src="vid/flower_loop.mp4" type="video/mp4">
-                </video>
-            </div>-->
-            <!--END OF Static video bg-->
-			
-			<!-- Solid color as filter or as background 
-            <div class="cover-bg pos-abs full-size bg-color" data-bgcolor="#FBF7FB"></div>-->
             
         </div>
         <!--END OF site Cover -->
@@ -195,7 +155,7 @@ http://themeforest.net/licenses
 						</div>
 						<div class="h-right">
 							<h3>Web Designer</h3>
-							<h4 class="subhead"><a href="#when">Em breve</a></h4>
+							<h4 class="subhead"><a href="#lancamento">Em breve</a></h4>
 						</div>
 					</header>
 				</section>
@@ -224,16 +184,12 @@ http://themeforest.net/licenses
 						<header class="header">
 							Em <strong>breve</strong>
 						</header>
-                         <div class="elem-left">
-							<!-- Optional text at top or image logo -->
-							<!--<span class="text top">here in</span>-->
-							<!-- Optional logo at top -->
-							
+                         <div class="elem-left">							
                             <div class="digit days">000</div>
                             <div class="text">dias</div>
                         </div>
                         <div class="elem-center">
-                            <span class="text top"><img class="img" alt="Logo" src="img/logo-large-lcwd.png"></span>
+                            <span class="text top"><img class="img" alt="Logo" src="img/logo.png"></span>
                             <div class="digit hours">00</div>
                             <div class="text">horas</div>
                         </div>						
@@ -313,9 +269,6 @@ http://themeforest.net/licenses
 								<li class="show-for-medium-up">
 									<a title="Sobre" href="#sobre" ><i class="ion ion-android-information"></i></a>
 								</li>
-								<!--<li>
-									<a title="Contact" href="#contact/information"><i class="ion ion-location"></i></a>
-								</li>-->
 								<li>
 									<a title="Mensagem" href="#contato/mensagem"><i class="ion ion-email"></i></a>
 								</li>
@@ -389,9 +342,6 @@ http://themeforest.net/licenses
 								<li>
 									<a title="Contato" href="#contato/informacao"><i class="ion ion-location"></i></a>
 								</li>
-								<!--<li>
-									<a title="Message" href="#contact/message"><i class="ion ion-email"></i></a>
-								</li>-->
 							</ul>
 						</header>
 						<!-- Begin Of Page SubSction -->
@@ -399,7 +349,7 @@ http://themeforest.net/licenses
 						<div class="page-block c-right v-zoomIn">
 							<div class="wrapper">
 								<div>
-									<form class="message form send_message_form" method="post" action="http://corpdip.pe.hu/contato/auto_envio.php" enctype="multipart/form-data">
+									<form class="message form send_message_form" method="post" action="formcontato/enviar.php" enctype="multipart/form-data">
 										<div class="fields clearfix">
 											<div class="input">
 												<label>Nome </label>
@@ -408,30 +358,29 @@ http://themeforest.net/licenses
 										<div class="fields clearfix">
 											<div class="input">
 												<label>Email </label>
-												<input type="email" name="E-mail" required>
+												<input type="email" name="email" required>
 											</div>
 										</div>
                                         <div class="fields clearfix">
 											<div class="input">
 												<label>Telefone </label>
-												<input type="text" name="Telefone">
+												<input type="text" name="telefone">
 											</div>
 										</div>
                                         <div class="fields clearfix">
 											<div class="input">
 												<label>Assunto </label>
-												<input type="text" name="Assunto" required>
+												<input type="text" name="assunto" required>
 											</div>
 										</div>
 										<div class="fields clearfix no-border">
 											<label>Mensagem </label>
-											<textarea placeholder="Digite sua mensagem ..." name="Mensagem" required></textarea>
+											<textarea placeholder="Digite sua mensagem ..." name="mensagem" required></textarea>
 										</div>
                                         <div class="buttons">
-                                            <button class="button email_b" name="submit_message">Enviar</button>
+                                            <button type="submit" class="button email_b" name="submit_message">Enviar</button>
                                         </div>
-                                        <input type="hidden" name="site" value="http://luizaceotto.com.br/">
-                                        <input type="hidden" name="email" value="contato@luizaceotto.com.br">
+                                        
 									</form>
 								</div>
 							</div>
@@ -446,39 +395,14 @@ http://themeforest.net/licenses
         
         </main>
 
-        <!-- END OF site main content content here -->  
-		
-		<!-- Begin of site footer 
-		<footer class="page-footer">
-			<span>Find us on 
-				<a href="http://www.facebook.com/luizaceotto" target="_blank"><i class="ion icon ion-social-facebook"></i></a>
-				<a href="http://www.linkedin.com/in/luizaceotto" target="_blank"><i class="ion icon ion-social-linkedin"></i></a>
-				<a href="http://twitter.com/luizaceotto" target="_blank"><i class="ion icon ion-social-twitter"></i></a>
-			</span>
-		</footer>
-		<!-- End of site footer -->
-
-        
-<!--        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
         
         <!-- All Javascript plugins goes here -->
         <script src="./js/vendor/jquery-1.11.2.min.js"></script>
 		<!-- All vendor scripts -->
         <script src="./js/vendor/all.js"></script>
 		
-		<!-- Detailed vendor scripts -->
-        <!--<script src="./js/vendor/jquery.fullPage.min.js"></script>
-        <script src="./js/vendor/jquery.slimscroll.min.js"></script>
-        <script src="./js/vendor/jquery.knob.min.js"></script>
-        <script src="./js/vegas/vegas.min.js"></script>
-        <script src="./js/jquery.maximage.js"></script>
-        <script src="./js/okvideo.min.js"></script>-->
-		
 		<!-- Downcount JS -->
         <script src="./js/jquery.downCount.js"></script>
-		
-		<!-- Form script 
-        <script src="./js/form_script.js"></script>-->
         
 		<!-- Javascript main files -->
         <script src="./js/main.js"></script>

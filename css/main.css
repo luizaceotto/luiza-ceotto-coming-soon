@@ -1842,9 +1842,17 @@ strong,
     font-style: normal;
 }
 
-.page-loader p, .header .h-left h2, .page-loader p, .header .h-left h2 strong
+.header .h-left h2, .header .h-left h2 strong
 {
     font-family: "NightWindSent";
     text-transform: capitalize !important;
     font-weight: normal !important;
+}
+
+.page-loader div p{
+    
+    font-family: "NightWindSent";
+    text-transform: capitalize !important;
+    font-weight: normal !important;
+    font-size: 28px;
 }
