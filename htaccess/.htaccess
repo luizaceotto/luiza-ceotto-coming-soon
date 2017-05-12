@@ -1,0 +1,18 @@
+SetEnvIf X-Forwarded-Proto https HTTPS=on
+RewriteEngine On 
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} ^(www\.)?luizaceotto\.com.br$ [NC]
+RewriteRule ^.*$ https://LuizaCeotto.com.br%{REQUEST_URI} [R,L]
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?luizaceotto.com.br [NC]
+RewriteRule \.(jpg|jpeg|png|gif)$ - [NC,F,L]
+<files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</files>
+Options -Indexes
+<FilesMatch ".(htm|html|css|js|php)$">
+AddDefaultCharset UTF-8
+</FilesMatch>

@@ -51,4 +51,4 @@ if ($enviado) {
   echo "<script>alert('Nao foi possivel enviar o e-mail. Detalhes do erro: . $mail->ErrorInfo;');</script>";
 }
 
-echo("<script type='text/javascript'>location.href='http://luizaceotto.com.br';</script>");
+echo("<script type='text/javascript'>location.href='https://LuizaCeotto.com.br';</script>");
